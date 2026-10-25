@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ha", dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>מנהל רשימת המשימות</h1>
+    <div class="task-form">
+        <input type="text" id="taskInput" placeholder="please enter a new task: ">
+        <button id="addTaskBtn">הוסף משימה</button>
+    </div>
+    <div class="actions-container">
+        <button id="clearCompletedBtn">מחק משימות שהושלמו</button>
+        <button id="clearAllBtn">מחק הכל</button>
+    </div>
+    <ul id="taskList"></ul>
+    <script type="module" src="./dist/main.js"></script>
+</body>
+</html>
